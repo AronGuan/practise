@@ -11,7 +11,7 @@ public class FileCopy {
 		File sourcefile = new File("./image/11.png");
 		String target = ".\\image" + File.separator + "file" +File.separator + sourcefile.getName();
 		File targetfile = new File(target);
-		/*if(!targetfile.exists()){   //²»ÐèÒª
+		/*if(!targetfile.exists()){   //no need
 			System.out.println(targetfile.createNewFile());
 		}*/
 		byte[] data = new byte[2048];
