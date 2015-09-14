@@ -1,0 +1,8 @@
+#Windows
+.settings
+build
+.classpath
+.project
+META-INF
+WEB-INF
+.jar
